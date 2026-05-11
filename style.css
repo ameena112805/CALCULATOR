@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background:  skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.AMMU {
+    background: lavender;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+.calinput {
+    background: turquoise;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    min-height: 70px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    overflow: hidden;
+
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+}
+
+#userinput {
+    color: darkmagenta;
+    font-size: 2rem;
+    font-weight: bold;
+    word-break: break-word;
+}
+
+
+.keys-cal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+button {
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+
+    background: darkcyan;
+    color: white;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    background: palevioletred;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+.operation {
+    background: deeppink;
+    color: black;
+}
+
+.operation:hover {
+    background: hotpink;
+}
+
+
+button:last-child {
+    background: hotpink;
+}
+
+button:last-child:hover {
+    background: lavenderblush;
+}
