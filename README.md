@@ -1,6 +1,6 @@
 # 🧮 Calculator Web Application
 
-A simple and responsive calculator built using **HTML, CSS, and JavaScript**.
+A simple and responsive calculator web application built using **HTML, CSS, and JavaScript**.
 
 ## 🚀 Features
 
@@ -9,8 +9,8 @@ A simple and responsive calculator built using **HTML, CSS, and JavaScript**.
 - ✖️ Multiplication
 - ➗ Division
 - 🔢 Decimal calculations
-- 🧹 Clear/reset functionality
-- 📱 Simple and user-friendly interface
+- 🧹 Clear functionality
+- 📱 Responsive and user-friendly design
 
 ## 🛠️ Technologies Used
 
@@ -25,5 +25,5 @@ CALCULATOR/
 │
 ├── index.html
 ├── style.css
-├── script.js
+├── Script.js
 └── README.md
