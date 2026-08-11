@@ -1,50 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>CALCULATOR</title>
-    <h1>MY CALCULATOR</h1>
-    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="AMMU">
+    <h1>MY CALCULATOR</h1>
 
-    <div class="calinput">
-        <p id="userinput">0</p>
+    <div class="AMMU">
+
+        <div class="calinput">
+            <p id="userinput">0</p>
+        </div>
+
+        <div class="keys-cal">
+
+            <button class="operation" data-value="AC">AC</button>
+            <button class="operation" data-value="DEL">DEL</button>
+            <button class="operation" data-value="%">%</button>
+            <button class="operation" data-value="/">/</button>
+
+            <button class="num" data-value="7">7</button>
+            <button class="num" data-value="8">8</button>
+            <button class="num" data-value="9">9</button>
+            <button class="operation" data-value="*">*</button>
+
+            <button class="num" data-value="4">4</button>
+            <button class="num" data-value="5">5</button>
+            <button class="num" data-value="6">6</button>
+            <button class="operation" data-value="-">-</button>
+
+            <button class="num" data-value="1">1</button>
+            <button class="num" data-value="2">2</button>
+            <button class="num" data-value="3">3</button>
+            <button class="operation" data-value="+">+</button>
+
+            <button class="num" data-value="0">0</button>
+            <button class="num" data-value=".">.</button>
+            <button class="equals" data-value="=">=</button>
+
+        </div>
+
     </div>
 
-    <div class="keys-cal">
-        <button class="operation">AC</button>
-        <button class="operation">DEL</button>
-        <button class="operation">%</button>
-        <button class="operation">/</button>
-
-        <button class="num">7</button>
-        <button class="num">8</button>
-        <button class="num">9</button>
-        <button class="operation">*</button>
-
-        <button class="num">4</button>
-        <button class="num">5</button>
-        <button class="num">6</button>
-        <button class="operation">-</button>
-
-        <button class="num">1</button>
-        <button class="num">2</button>
-        <button class="num">3</button>
-        <button class="operation">+</button>
-
-        <button class="operation">0</button>
-        <button>.</button>
-        <button>=</button>
-    </div>
-
-</div>
-
-<script src="Script.js"></script>
+    <script src="Script.js"></script>
 
 </body>
+
 </html>
